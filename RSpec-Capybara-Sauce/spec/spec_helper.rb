@@ -5,10 +5,7 @@ require "capybara/rspec"
 Sauce.config do |c|
   c[:start_tunnel] = false
   c[:browsers] = [
-    ["Windows 8", "Internet Explorer", "10"],
-    ["Windows 7", "Firefox", "20"],
-    ["OS X 10.10", "Safari", "8"],
-    ["Linux", "Chrome", 40]
+    [ENV["SELENIUM_PLATFORM"], ENV["SELENIUM_BROWSER"], ENV["SELENIUM_VERSION"]]
   ]
 end
 
