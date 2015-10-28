@@ -1,3 +1,5 @@
+source "https://www.rubygems.org"
+
 gem 'rspec'
 gem 'sauce', '~> 3.5.6'
 gem 'sauce-connect'
