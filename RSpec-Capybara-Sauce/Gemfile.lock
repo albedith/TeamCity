@@ -1,4 +1,5 @@
 GEM
+  remote: https://www.rubygems.org/
   specs:
     capybara (2.5.0)
       mime-types (>= 1.16)
@@ -12,7 +13,7 @@ GEM
     diff-lcs (1.2.5)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
-    ffi (1.9.10)
+    ffi (1.12.2)
     highline (1.7.8)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
